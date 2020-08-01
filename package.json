@@ -1,0 +1,57 @@
+{
+  "name": "Shradha Deliveries",
+  "version": "1.0.0",
+  "description": "Create React App with Tailwind CSS",
+  "author": {
+    "name": "Neeraj Goswami",
+    "email": "nbneeraj8@gmail.com",
+    "url": "https://neerajpro-profile.herokuapp.com"
+  },
+  "private": true,
+  "scripts": {
+    "tailwind": "npx tailwind build src/tailwind.css -o src/index.css",
+    "prestart": "npm run tailwind",
+    "start": "react-scripts start",
+    "prebuild": "cross-env NODE_ENV=production npm run tailwind",
+    "build": "react-scripts build",
+    "inline": "npm run build && gulp"
+  },
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "tailwindui",
+    "vscode",
+    "create-react-app"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/ui": "^0.3.1",
+    "autoprefixer": "^9.8.5",
+    "cross-env": "^7.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gulp": "^4.0.2",
+    "gulp-inline-source": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "prettier": "^2.0.5",
+    "tailwindcss": "^1.5.1"
+  }
+}
