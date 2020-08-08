@@ -7,6 +7,7 @@ const App = () => {
     <div className="flex flex-col h-screen"> 
         <Header></Header>
         <Home></Home>
+        this is 3rd screen
     </div>
   );
 };

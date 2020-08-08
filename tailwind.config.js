@@ -7,6 +7,9 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
+    color: {
+      
+    }
   },
   variants: {},
   purge: [
