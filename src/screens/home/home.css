@@ -1,0 +1,26 @@
+.welcome-text{
+    font-family: "PT Serif", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto 30px;
+    text-transform: capitalize;
+    color: #0D1A35;
+}
+.sub-heading{
+    font-family: "PT Serif", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto 30px;
+    text-transform: capitalize;
+    color: #0D1A35;
+}
+.main-page-logo{
+    width: 20rem;
+    height: 20rem;
+}
