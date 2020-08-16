@@ -30,7 +30,7 @@ const Features = () => {
         </div>
       </div>
       <div class="w-full">
-        <div class="description delivery-intro">
+        <div class="description delivery-intro mb-3">
           <h2 class="delivery-message">Yeah! we deliver</h2>
           <h2 class="delivery-message">flowers everyday</h2>
           <h2 class="delivery-message">at your doorstep</h2>

@@ -9,19 +9,19 @@ const Pricing = () => {
         <div class="w-full">
           <div class="description delivery-intro">
             <h2 class="pricing-message">We don't want to confuse you by</h2>
-            <h2 class="pricing-message">slowing 10 different plans so</h2>
+            <h2 class="pricing-message">showing 10 different plans so</h2>
             <h2 class="pricing-message">there is only 1 and we call it.</h2>
-            <div class="basic-plan">
-                <div class="intro text-center ">the basic</div>
-                <div class="pricing-box text-center pricing-text">
+            <div class="intro text-center">the basic</div>
+            <div class="basic-plan flex justify-center">
+                <div class="pricing-box text-center pricing-text text-center">
                     <p class="text-base sm:text-sm md:text-sm lg:text-xl mb-6 mt-2">What's in Basic</p>
-                    <p class="text-center">-30 Flower Packets.</p>
-                    <p class="text-center">- Every packet cost Rupees 15/-</p>
-                    <p class="text-center">- Do the maths.</p> 
-                    <p class="text-center">- Rupees 450/- per month.</p>
-                    <p class="text-center">- Use and Pay.</p>
-                    <p class="text-center">- Billing at the end of month.</p>
-                    <p class="text-center">- No delivery charges.</p>
+                    <p class="text-center sm:text-sm">- 30 Flower Packets.</p>
+                    <p class="text-center sm:text-sm">- Every packet cost Rupees 15/-</p>
+                    <p class="text-center sm:text-sm">- Do the maths.</p> 
+                    <p class="text-center sm:text-sm">- Rupees 450/- per month.</p>
+                    <p class="text-center sm:text-sm">- Use and Pay.</p>
+                    <p class="text-center sm:text-sm">- Billing at the end of month.</p>
+                    <p class="text-center sm:text-sm">- No delivery charges.</p>
                 </div>
             </div>
           </div>
