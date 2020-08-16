@@ -2,7 +2,6 @@
     /* padding: 5rem 1rem 5rem 1rem; */
     height: 80rem;
 }
-
 .text-water-blue {
     font-weight: 600;
     text-transform: uppercase;
@@ -13,16 +12,11 @@
     color: #ffffff;
     background: #275d8c
 }
-.delivery-intro{
-    margin: 2rem;
-}
-.delivery-message{
+
+.pricing-message{
     font-weight: 400;
     letter-spacing: 1px;
     font-size: 1rem;
     text-align:center;
     color: #1282d4;
-}
-.delivery-catalog{
-
 }
