@@ -12,3 +12,16 @@
     text-align:center;
     color: #1282d4;
 }
+.delivery-intro{
+    margin: 2rem;
+}
+.delivery-message{
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-align:center;
+    color: #1282d4;
+}
+.delivery-catalog{
+    
+}

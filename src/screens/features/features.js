@@ -29,6 +29,28 @@ const Features = () => {
           </div>
         </div>
       </div>
+      <div class="w-full">
+        <div class="description delivery-intro">
+          <h2 class="delivery-message">Yeah! we deliver</h2>
+          <h2 class="delivery-message">flowers everyday</h2>
+          <h2 class="delivery-message">at your doorstep</h2>
+        </div>
+      </div>
+
+      <div class="description">
+          <h2 class="delivery-message">We deliver this</h2>
+          <div class="flex">
+            <div class="flex-1 text-center px-4 py-2 m-2">
+                <img src="./assets/images/flower-grass-shradha.png"></img>
+            </div>
+            <div class="flex-1 text-center px-4 py-2 m-2">
+                <img src="./assets/images/flower-grass-shradha.png"></img>
+            </div>
+            <div class="flex-1 text-center px-4 py-2 m-2">
+                <img src="./assets/images/flower-grass-shradha.png"></img>
+            </div>
+          </div>
+      </div>
     </section>
   );
 };
