@@ -1,6 +1,6 @@
-#what_we_section{
+#how_we_section{
     /* padding: 5rem 1rem 5rem 1rem; */
-    height: 80rem;
+    height: 100rem;
 }
 .text-water-blue {
     font-weight: 600;
@@ -18,5 +18,28 @@
     letter-spacing: 1px;
     font-size: 1rem;
     text-align:center;
+    color: #1282d4;
+}
+.basic-plan{
+    margin:1rem;
+    padding:0.5rem;
+}
+.intro{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align:center;
+    color: #1282d4;
+}
+
+.pricing-box{
+    border: 5px solid #1282d4;
+    margin: 2rem;
+    padding: 1rem;
+    position: relative;
+    left: 28%;
+    width: 40%;
+}
+.pricing-text {
     color: #1282d4;
 }

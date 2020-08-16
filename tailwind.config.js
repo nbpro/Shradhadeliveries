@@ -11,7 +11,9 @@ module.exports = {
       
     }
   },
-  variants: {},
+  variants: {
+    fontSize: ['responsive', 'hover', 'focus'],
+  },
   purge: [
     './src/**/*.html',
     './src/**/*.js',
