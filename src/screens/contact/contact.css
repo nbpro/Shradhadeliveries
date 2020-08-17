@@ -13,3 +13,30 @@
     color: #ffffff;
     background: #275d8c
 }
+.contact-us-desc{
+    margin: 2rem;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.contact-us-intro-text{
+   text-align: center;
+}
+.contact-phone{
+    margin: 1rem;
+}
+.svg_container_small {
+    max-width: 6em;
+    display: inline-block;
+    vertical-align: top;
+}
+.phone-number{
+    display: inline-block;
+    top: 2rem;
+}
+.contact-whatsapp{
+    display: flex;
+   justify-content: center;
+}
+.whatsapp-number{
+    display: inline;
+    padding: 0.2rem
+}
