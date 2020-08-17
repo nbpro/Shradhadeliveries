@@ -3,6 +3,8 @@ import Header from './components/Header/header';
 import Home from './screens/home/homePage'
 import Features from './screens/features/features';
 import Pricing from './pricing/pricing';
+import OrderDetails from './screens/order/order';
+import ContactUs from './screens/contact/contact';
 
 const App = () => {
   return (
@@ -11,6 +13,8 @@ const App = () => {
         <Home></Home>
         <Features></Features>
         <Pricing></Pricing>
+        <OrderDetails></OrderDetails>
+        <ContactUs></ContactUs>
     </div>
   );
 };
