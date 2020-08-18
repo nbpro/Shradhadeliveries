@@ -18,7 +18,7 @@ const ContactUs = () => {
               </svg>
             </div>
             <div class="phone-number">
-                +91-7387559311
+                +91-9006924666
             </div>
           </div>
          <div class="contact-whatsapp flex text-center">
@@ -26,7 +26,7 @@ const ContactUs = () => {
                 <img src="./assets/images/icons8-whatsapp.svg" width="30" height="30"></img>
             </div>
             <div class="whatsapp-number">
-                +91-7387559311
+                +91-7042431701
             </div>
          </div>
       </div>
