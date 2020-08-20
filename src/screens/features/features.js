@@ -41,13 +41,13 @@ const Features = () => {
           <h2 class="delivery-message">We deliver this</h2>
           <div class="flex">
             <div class="flex-1 text-center px-4 py-2 m-2">
-                <img src="./assets/images/flower-grass-shradha.png"></img>
+                <img class="flower-rounded" src="./assets/images/flower1.jpeg" width="400" height="300"></img>
             </div>
             <div class="flex-1 text-center px-4 py-2 m-2">
-                <img src="./assets/images/flower-grass-shradha.png"></img>
+                <img class="flower-rounded" src="./assets/images/flower2.jpeg" width="400" height="300"></img>
             </div>
             <div class="flex-1 text-center px-4 py-2 m-2">
-                <img src="./assets/images/flower-grass-shradha.png"></img>
+                <img class="flower-rounded" src="./assets/images/flower3.jpeg" width="400" height="300"></img>
             </div>
           </div>
       </div>

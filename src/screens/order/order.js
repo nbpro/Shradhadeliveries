@@ -11,7 +11,10 @@ const OrderDetails = () => {
                 Let's go step by step 
             </div>
             <div class="order-details-images">
-                
+                <div class="order-details-images-mobile">
+                  <img class="image-place-holder" src="./assets/images/mobile-delivery.png"></img>
+                  <img src="./assets/images/mobile-delivery.png"></img>
+                </div>
             </div>
         </div>
       </div>

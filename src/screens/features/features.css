@@ -23,6 +23,8 @@
     text-align:center;
     color: #1282d4;
 }
-.delivery-catalog{
-
+.flower-rounded{
+    border-radius: 10%;
+    overflow: hidden;
+    object-fit: cover;
 }
