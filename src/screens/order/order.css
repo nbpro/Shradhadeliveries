@@ -3,9 +3,29 @@
     padding: 0rem 2rem 0rem 2rem;
 }
 .order-details-images-mobile{
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .image-place-holder{
-    
+    flex-direction: column;
+    max-width: 25%;
+}
+.help-text{
+    text-align: center;
+}
+
+ 
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .image-place-holder{
+        flex-direction: row;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width : 1200px) {
+    .order-details-images-mobile{
+        justify-content: space-around;
+    }
 }

@@ -28,3 +28,11 @@
     overflow: hidden;
     object-fit: cover;
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .delivery-message{
+        font-size: 1rem;
+    }
+    .delivery-intro{
+        margin: 1rem;
+    }
+}

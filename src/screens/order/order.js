@@ -12,8 +12,22 @@ const OrderDetails = () => {
             </div>
             <div class="order-details-images">
                 <div class="order-details-images-mobile">
-                  <img class="image-place-holder" src="./assets/images/mobile-delivery.png"></img>
-                  <img src="./assets/images/mobile-delivery.png"></img>
+                  <div class="image-place-holder">
+                      <img alt="mobile-delivery-image" src="./assets/images/mobile-delivery.png"></img>
+                       <p class="help-text"><h6>You Call/Text</h6></p>
+                  </div>
+                  <div class="image-place-holder">
+                      <img alt="mobile-delivery-image" src="./assets/images/we-talk.png"></img>
+                       <p class="help-text"><h6>We Talk/Chat</h6></p>
+                  </div>
+                  <div class="image-place-holder">
+                      <img alt="mobile-delivery-image" src="./assets/images/heart.png"></img>
+                       <p class="help-text"><h6>We send you a welcome note</h6></p>
+                  </div>
+                  <div class="image-place-holder">
+                      <img alt="mobile-delivery-image" src="./assets/images/travel.png"></img>
+                       <p class="help-text"><h6>Delivery Starts</h6></p>
+                  </div>    
                 </div>
             </div>
         </div>
