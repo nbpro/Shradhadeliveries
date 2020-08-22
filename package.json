@@ -39,7 +39,8 @@
     "@tailwindcss/typography": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-viewer": "^3.2.2"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",

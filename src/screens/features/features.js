@@ -1,7 +1,11 @@
 import React from 'react';
 import './features.css';
+import Viewer from 'react-viewer';
 
 const Features = () => {
+
+  const [ visible, setVisible ] = React.useState(false);
+
   return (
     <section id="what_we_section" class="feature-section">
       <div class="w-full">
@@ -40,17 +44,22 @@ const Features = () => {
       <div class="description">
           <h2 class="delivery-message">We deliver this</h2>
           <div class="flex">
-            <div class="flex-1 text-center px-4 py-2 m-2">
+            <div class="flex-1 text-center px-4 py-2 m-2" onClick={() => { setVisible(true); } }>
                 <img class="flower-rounded" src="./assets/images/flower1.jpeg" width="400" height="300"></img>
             </div>
-            <div class="flex-1 text-center px-4 py-2 m-2">
+            <div class="flex-1 text-center px-4 py-2 m-2" onClick={() => { setVisible(true); } }>
                 <img class="flower-rounded" src="./assets/images/flower2.jpeg" width="400" height="300"></img>
             </div>
-            <div class="flex-1 text-center px-4 py-2 m-2">
+            <div class="flex-1 text-center px-4 py-2 m-2" onClick={() => { setVisible(true); } }>
                 <img class="flower-rounded" src="./assets/images/flower3.jpeg" width="400" height="300"></img>
             </div>
           </div>
       </div>
+      <Viewer
+      visible={visible}
+      onClose={() => { setVisible(false); } }
+      images={[{src: './assets/images/flower1.jpeg', alt: 'original flower 1'}, {src: './assets/images/flower2.jpeg', alt: 'original flower 2'}, {src: './assets/images/flower3.jpeg', alt: 'original flower 3'}]}
+      />
     </section>
   );
 };
